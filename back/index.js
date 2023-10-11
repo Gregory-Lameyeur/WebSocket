@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
 	cors: {
-		origin: "https://web-socket-server-three.vercel.app/",
+		origin: "https://web-socket-server-three.vercel.app",
 		methods: ["GET", "POST"],
 	},
 });
