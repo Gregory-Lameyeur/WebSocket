@@ -2,7 +2,7 @@ import "./App.css";
 import io from "socket.io-client";
 import { useEffect, useState } from "react";
 
-const socket = io.connect("*");
+const socket = io.connect("https://web-socket-back.vercel.app");
 
 function App() {
 	//Room State
